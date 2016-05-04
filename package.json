@@ -1,0 +1,20 @@
+{
+  "name": "avraam",
+  "version": "0.0.1",
+  "description": "testapp",
+  "main": "main.js",
+  "dependencies": {
+    "express": "~4.13.4",
+    "socket.io": "~1.4.5",
+    "express-session": "~1.13.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "testapp"
+  ],
+  "author": "avraam piperidis",
+  "license": "BSD-2-Clause"
+}

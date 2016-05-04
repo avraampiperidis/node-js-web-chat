@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Socket.IO chat</title>
+    <link href="../public/styles/style.css" rel="stylesheet" />
+    <script src="../public/js/cookie.js"></script>
+    <script src="../public/js/listusers.js"></script>
+
+  </head>
+  <body>
+
+    <div align="right"><input align="right" id="search" type="search" onkeyup="getUsers(this.value)" /><button>search users</button>send message to:<span  id="user"></span><br>
+
+      <ul id="list" style="font-weight: bold;font-size: large">
+        <li></li>
+      </ul>
+
+      <ul id="messages"></ul>
+
+      <form action="">
+        <input id="m" autocomplete="off" /><button>Send</button>
+      </form>
+
+
+    </div>
+
+    <script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+    <script src="../public/js/basicchat.js"></script>
+  </body>
+</html>
